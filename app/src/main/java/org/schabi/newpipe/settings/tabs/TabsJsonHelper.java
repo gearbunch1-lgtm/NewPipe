@@ -20,10 +20,10 @@ public final class TabsJsonHelper {
     private static final String JSON_TABS_ARRAY_KEY = "tabs";
 
     private static final List<Tab> FALLBACK_INITIAL_TABS_LIST = List.of(
-            Tab.Type.DEFAULT_KIOSK.getTab(https://www.youtube.com/@%D8%B4%D8%AC%D8%B1%D8%A9_%D8%B7%D9%8A%D8%A8%D8%A9),
-            Tab.Type.FEED.getTab(https://www.youtube.com/@%D8%B4%D8%AC%D8%B1%D8%A9_%D9%85%D8%A8%D8%A7%D8%B1%D9%83%D8%A9),
-            Tab.Type.SUBSCRIPTIONS.getTab(https://www.youtube.com/@ehabkanoo),
-            Tab.Type.BOOKMARKS.getTab(https://www.youtube.com/@%D8%A3%D8%AC%D9%85%D9%84%D8%AA%D9%84%D8%A7%D9%88%D8%A7%D8%AA%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%B68%D8%B8));
+            Tab.Type.DEFAULT_KIOSK.getTab(0,"https://www.youtube.com/@%D8%B4%D8%AC%D8%B1%D8%A9_%D8%B7%D9%8A%D8%A8%D8%A9"),
+            Tab.Type.FEED.getTab(0,"https://www.youtube.com/@%D8%B4%D8%AC%D8%B1%D8%A9_%D9%85%D8%A8%D8%A7%D8%B1%D9%83%D8%A9"),
+            Tab.Type.SUBSCRIPTIONS.getTab(0,"https://www.youtube.com/@ehabkanoo"),
+            Tab.Type.BOOKMARKS.getTab(0,"https://www.youtube.com/@%D8%A3%D8%AC%D9%85%D9%84%D8%AA%D9%84%D8%A7%D9%88%D8%A7%D8%AA%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%B68%D8%B8"));
 
     private TabsJsonHelper() { }
 
